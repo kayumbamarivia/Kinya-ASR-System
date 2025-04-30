@@ -1,0 +1,58 @@
+kinya-whisper-model/model.safetensors
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+*.env
+
+# PyInstaller
+*.spec
+
+# Audio and model files
+*.wav
+*.mp3
+*.flac
+audio/
+spoken_outputs/
+kinya-whisper-model/
+
+# Transcriptions and logs
+transcriptions.txt
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python environment
+pip-log.txt
+pip-delete-this-directory.txt
+
+# TTS temporary cache
+.tts_cache/
+
+# HuggingFace transformers cache
+~/.cache/
+~/.huggingface/
