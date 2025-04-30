@@ -23,13 +23,6 @@ env.bak/
 
 # PyInstaller
 *.spec
-
-# Audio and model files
-*.wav
-*.mp3
-*.flac
-audio/
-spoken_outputs/
 kinya-whisper-model/
 
 # Transcriptions and logs
